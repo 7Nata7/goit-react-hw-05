@@ -1,0 +1,10 @@
+.loadMoreBtn {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #3c4ea0;
+  border-style: none;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 12px;
+  display: block;
+}

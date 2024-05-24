@@ -1,0 +1,20 @@
+.list {
+  padding: 12px 0;
+}
+
+.listItem {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.listItem > *:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.castImg {
+  width: 100px;
+}

@@ -1,0 +1,34 @@
+.posterAndDesc {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 12px;
+}
+
+.poster {
+  width: 300px;
+  align-self: flex-start;
+}
+
+.desc > * {
+  margin-top: 20px;
+}
+
+.geners {
+  display: flex;
+  gap: 12px;
+}
+
+.additionalInfo {
+  padding: 12px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.list {
+  text-decoration: underline;
+}
+
+.list > * {
+  list-style-type: disc;
+  margin-left: 40px;
+}
