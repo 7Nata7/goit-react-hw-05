@@ -1,10 +1,3 @@
-// import "./App.module.css";
-// import { Route, Routes } from "react-router-dom";
-// import { Suspense, lazy } from "react";
-// import { Navbar } from "./Navbar/Navbar";
-// import { MovieCast } from "./MovieCast/MovieCast";
-// import MovieReviews from "../components/MovieReviews/MovieReviews.jsx";
-
 import "./App.module.css";
 import { Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";

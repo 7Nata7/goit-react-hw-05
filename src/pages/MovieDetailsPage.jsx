@@ -11,6 +11,7 @@ export default function MovieDetailsPage() {
 
   const { movieId } = useParams();
   const [movie, setMovie] = useState(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -21,16 +22,21 @@ export default function MovieDetailsPage() {
     })
       .then((resp) => {
         setMovie(resp.data.data);
+        setError(false);
       })
       .catch((error) => {
         if (axios.isCancel(error)) return;
-        // setError(true);
+        setError(true);
       });
 
     return () => {
       controller.abort();
     };
   }, [movieId]);
+
+  if (error) {
+    return <div>Failed to load movie details. Please try again later.</div>;
+  }
 
   return (
     <div>
