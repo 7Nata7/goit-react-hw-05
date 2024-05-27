@@ -4,7 +4,7 @@ import { MovieList } from "../components/MovieList/MovieList";
 import { LoadMoreBtn } from "../components/LoadMoreBtn/LoadMoreBtn";
 import { Loader } from "../components/Loader/Loader";
 import { ErrorMessage } from "../components/ErrorMessage/ErrorMessage";
-import { getMovies } from "../apiService/Films";
+import { getMovies } from "../api/Films";
 import { useSearchParams } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
