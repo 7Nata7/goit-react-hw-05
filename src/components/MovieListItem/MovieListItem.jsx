@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-import { getPoster } from "../../apiService/Films";
+import { getPoster } from "../../api/Films";
 import css from "./MovieListItem.module.css";
 
 export const MovieListItem = ({ movie }) => {

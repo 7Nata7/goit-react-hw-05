@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
-import { getMovieById } from "../apiService/Films";
+import { getMovieById } from "../api/Films";
 import { MovieListItem } from "../components/MovieListItem/MovieListItem";
 import { BackLink } from "../components/BackLink/BackLink";
 import axios from "axios";
